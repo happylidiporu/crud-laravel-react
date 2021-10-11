@@ -17,8 +17,8 @@ class MuridResource extends JsonResource
         // return parent::toArray($request);
         return [
             'id' => $this->id,
-            'username' => $this->username,
-            'nama' => $this->nama
+            'nama' => $this->nama,
+            'alamat' => $this->alamat
         ];
     }
 }
